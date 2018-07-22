@@ -12,14 +12,15 @@
 
         td,
         th {
-            font-size: 2em;
+            font-size: 1.2em;
             border: 1px solid #98bf21;
             padding: 3px 7px 2px 7px;
             text-align: center;
+            position: relative;
         }
 
         th {
-            font: size 2.2em;
+            font: size 1.4em;
             padding-top: 5px;
             padding-bottom: 4px;
             background-color: #A7C942;
@@ -29,6 +30,15 @@
         tr.alt td {
             color: #000000;
             background-color: #EAF2D3;
+        }
+
+        td div{
+            font-size: 0.8em;
+            float: left;
+            top: 2px;
+            left: 2px;
+            color: rgb(228, 129, 129);
+            position:absolute;
         }
     </style>
 </head>
@@ -46,17 +56,17 @@
         </tr>
         <tr>
             <td>一</td>
-            <td>许愿</td>
-            <td>扫除</td>
-            <td>扫除</td>
-            <td>实力</td>
-            <td>研究</td>
-            <td>符文</td>
+            <td><div>冒险</div>许愿</td>
+            <td><div>冒险</div>扫除</td>
+            <td><div>冒险</div>扫除</td>
+            <td><div>冒险</div>实力</td>
+            <td><div>冒险</div>研究</td>
+            <td><div>冒险</div>符文</td>
         </tr>
         <tr class="alt">
             <td>二</td>
-            <td>招募</td>
-            <td>许愿</td>
+            <td><div>冒险</div>招募</td>
+            <td><div>冒险</div>许愿</td>
             <td>建造</td>
             <td>招募</td>
             <td>许愿</td>
@@ -75,15 +85,15 @@
             <td>四</td>
             <td>研究</td>
             <td>符文</td>
-            <td>研究</td>
-            <td>符文</td>
-            <td>招募</td>
-            <td>许愿</td>
+            <td><div>老虎</div>研究</td>
+            <td><div>老虎</div>符文</td>
+            <td><div>老虎</div>招募</td>
+            <td><div>老虎</div>许愿</td>
         </tr>
         <tr>
             <td>五</td>
-            <td>杀狼</td>
-            <td>杀狼</td>
+            <td><div>老虎</div>杀狼</td>
+            <td><div>老虎</div>杀狼</td>
             <td>符文</td>
             <td>许愿</td>
             <td>实力</td>
@@ -102,10 +112,13 @@
             <td>日</td>
             <td>原始</td>
             <td>原始</td>
-            <td>实力</td>
-            <td>研究</td>
-            <td>符文</td>
-            <td>招募</td>
+            <td>
+                <div>冒险</div>
+                实力
+            </td>
+            <td><div>冒险</div>研究</td>
+            <td><div>冒险</div>符文</td>
+            <td><div>冒险</div>招募</td>
         </tr>
     </table>
 </body>
